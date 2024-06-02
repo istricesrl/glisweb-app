@@ -1,0 +1,20 @@
+Screen:
+
+    GridLayout:
+        rows: 2
+
+        ScrollView:
+
+            MDLabel:
+                id: mdlab
+                text: "Hello, World!"
+                # font_style: "H1"
+                text_size: self.width, None
+                size_hint_y: None
+                height: self.texture_size[1]
+
+        MDRectangleFlatButton:
+            id: mdbtn
+            text: "Click me!"
+            size_hint_x: 1.0
+            on_press: app.askconfig()
