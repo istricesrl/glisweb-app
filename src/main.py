@@ -61,7 +61,7 @@ class GlisWebApp(MDApp):
 
         self.title = 'GlisWeb app'
         self.theme_cls.primary_palette = 'Gray'
-        self.theme_cls.primary_hue = '900'
+        self.theme_cls.primary_hue = '600'
 
         return Builder.load_file('main.kv')
 
