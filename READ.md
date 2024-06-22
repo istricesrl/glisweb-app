@@ -1,3 +1,9 @@
+documentazione utile
+====================
+https://kivymd.readthedocs.io/en/latest/
+https://buildozer.readthedocs.io/en/latest/installation.html
+https://www.evemilano.com/blog/python-venv/
+
 preparazione dell'ambiente
 ==========================
 
@@ -18,3 +24,9 @@ buildozer
 
 inizializzare:
 buildozer init
+
+cose da modificare nel file spec:
+
+
+compilare:
+buildozer android debug
